@@ -52,7 +52,7 @@
                 </div>
             @endif
             <div class="h-full">
-            <img src="/storage/cheerpark.jpg">
+            <img src="{{ asset('/storage/app/public/cheerpark.jpg') }}">
             </div>
         </div>
         
