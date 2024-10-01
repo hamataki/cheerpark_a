@@ -32,7 +32,7 @@
                                         <input type="hidden" name="to_user_id" value="{{ $user->id }}">
                                         <input type="hidden" name="from_user_id" value="{{ auth()->user()->id }}">
                                         <input type="hidden" name="reaction" value="like">
-                                        <button type="submit" class="bg-sky-500 hover:bg-sky-400 text-white font-bold px-4 rounded">Like</button>
+                                        <button type="submit" class="bg-sky-500 hover:bg-sky-400 text-white font-bold px-4 rounded">相談する</button>
                                     </form>
                                     </div>
                                     
@@ -43,7 +43,7 @@
                                         <input type="hidden" name="to_user_id" value="{{ $user->id }}">
                                         <input type="hidden" name="from_user_id" value="{{ auth()->user()->id }}">
                                         <input type="hidden" name="reaction" value="dislike">
-                                        <button type="submit" class="px-4 rounded">Dislike</button>
+                                        <button type="submit" class="px-4 rounded">キャンセル</button>
                                     </form>
                                     </div>
                                 
